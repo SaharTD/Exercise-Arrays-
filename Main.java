@@ -194,15 +194,13 @@ public class Main {
 //[2,3,6,6,4] [2,3,6,6,4]
 //        Sample Output: true
 
-
-        int [] numbers_1={2,3,6,6,4};
+ int [] numbers_1={2,3,6,6,4};
         int [] numbers_2={2,3,6,6,4};
 
         boolean result =Arrays.equals(numbers_1,numbers_2);
 
 
-        System.out.printf("",result);
-
+        System.out.printf(""+ result);
 
     }
 }
