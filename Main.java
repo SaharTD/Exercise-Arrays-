@@ -32,7 +32,7 @@ public class Main {
             number[i]= numb=input.nextInt();
         }
 
-        if (number.length - 1 == number[0]) {// if condition to test if the last number (taken from the length -1 )equal the first number (index 0)
+        if (number[number.length - 1] == number[0]) {// if condition to test if the last number (taken from the length -1 )equal the first number (index 0)
             result =true;
         }else result=false;
 
